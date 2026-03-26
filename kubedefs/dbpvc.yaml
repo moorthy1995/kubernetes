@@ -6,7 +6,7 @@ metadata:
     app: vprodb
 spec:
   storageClassName: default
-  accessMode:
+  accessModes:
     - ReadWriteOnce
   resources:
     requests:
